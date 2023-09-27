@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  
+
+;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.taskWrapper {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.taskTitle {
+  margin-left: 10px;
+}
+
+.close {
+  margin-left: auto;
 }
